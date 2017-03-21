@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.androidexample.swipetorefresh_demo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/thirty"
+            android:text="Welcome to the Swipe To Refresh demo\nSwipe Down to Try it"
+            android:textAlignment="center"
+            android:textSize="@dimen/twenty" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/thirty"
+            android:padding="@dimen/twenty"
+            android:text="Random Number will be displayed between 0 to 100 "
+            android:textAlignment="center"
+            android:textSize="@dimen/twenty" />
+
+        <TextView
+            android:id="@+id/random"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="40dp"
+            tools:text="0-100" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout>
