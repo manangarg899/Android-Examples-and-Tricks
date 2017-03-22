@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ten">10dp</dimen>
+    <dimen name="twenty">20dp</dimen>
+    <dimen name="logo_width">208dp</dimen>
+    <dimen name="text_size">45sp</dimen>
+    <dimen name="thirty">30sp</dimen>
+</resources>
